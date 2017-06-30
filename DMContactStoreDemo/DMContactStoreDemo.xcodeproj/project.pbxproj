@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3371DDE1C968383235804CFD /* libPods-DMContactStoreDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 069E9132F9ED9597C0012CDB /* libPods-DMContactStoreDemo.a */; };
 		EBBA58791F04ADDC00B1F7A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA58781F04ADDC00B1F7A1 /* main.m */; };
 		EBBA587C1F04ADDC00B1F7A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA587B1F04ADDC00B1F7A1 /* AppDelegate.m */; };
 		EBBA587F1F04ADDC00B1F7A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA587E1F04ADDC00B1F7A1 /* ViewController.m */; };
 		EBBA58821F04ADDC00B1F7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA58801F04ADDC00B1F7A1 /* Main.storyboard */; };
 		EBBA58841F04ADDC00B1F7A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBA58831F04ADDC00B1F7A1 /* Assets.xcassets */; };
 		EBBA58871F04ADDC00B1F7A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA58851F04ADDC00B1F7A1 /* LaunchScreen.storyboard */; };
+		EBBA58911F04CF1200B1F7A1 /* DMContactStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA58901F04CF1200B1F7A1 /* DMContactStoreModel.m */; };
+		EBBA58941F04CF5F00B1F7A1 /* DMContactStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA58931F04CF5F00B1F7A1 /* DMContactStore.m */; };
+		EBBA58971F04D35F00B1F7A1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA58951F04D35F00B1F7A1 /* AddressBook.framework */; };
+		EBBA58981F04D35F00B1F7A1 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA58961F04D35F00B1F7A1 /* AddressBookUI.framework */; };
+		EBBA589B1F04D36800B1F7A1 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA58991F04D36800B1F7A1 /* Contacts.framework */; };
+		EBBA589C1F04D36800B1F7A1 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA589A1F04D36800B1F7A1 /* ContactsUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		069E9132F9ED9597C0012CDB /* libPods-DMContactStoreDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMContactStoreDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53459F5DE4EED8632B7AA248 /* Pods-DMContactStoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMContactStoreDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMContactStoreDemo/Pods-DMContactStoreDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D8DBE1B39DC5D1364BB8F377 /* Pods-DMContactStoreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMContactStoreDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMContactStoreDemo/Pods-DMContactStoreDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EBBA58741F04ADDC00B1F7A1 /* DMContactStoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMContactStoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBA58781F04ADDC00B1F7A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBBA587A1F04ADDC00B1F7A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,14 @@
 		EBBA58831F04ADDC00B1F7A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBBA58861F04ADDC00B1F7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBBA58881F04ADDC00B1F7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBA588F1F04CF1200B1F7A1 /* DMContactStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMContactStoreModel.h; sourceTree = "<group>"; };
+		EBBA58901F04CF1200B1F7A1 /* DMContactStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMContactStoreModel.m; sourceTree = "<group>"; };
+		EBBA58921F04CF5F00B1F7A1 /* DMContactStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMContactStore.h; sourceTree = "<group>"; };
+		EBBA58931F04CF5F00B1F7A1 /* DMContactStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMContactStore.m; sourceTree = "<group>"; };
+		EBBA58951F04D35F00B1F7A1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		EBBA58961F04D35F00B1F7A1 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		EBBA58991F04D36800B1F7A1 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		EBBA589A1F04D36800B1F7A1 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBBA589B1F04D36800B1F7A1 /* Contacts.framework in Frameworks */,
+				EBBA589C1F04D36800B1F7A1 /* ContactsUI.framework in Frameworks */,
+				EBBA58971F04D35F00B1F7A1 /* AddressBook.framework in Frameworks */,
+				EBBA58981F04D35F00B1F7A1 /* AddressBookUI.framework in Frameworks */,
+				3371DDE1C968383235804CFD /* libPods-DMContactStoreDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1D016E4205DBA572B1BB539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBE1B39DC5D1364BB8F377 /* Pods-DMContactStoreDemo.debug.xcconfig */,
+				53459F5DE4EED8632B7AA248 /* Pods-DMContactStoreDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C39CBEDD61DEA6D8B88B1B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBBA58991F04D36800B1F7A1 /* Contacts.framework */,
+				EBBA589A1F04D36800B1F7A1 /* ContactsUI.framework */,
+				EBBA58951F04D35F00B1F7A1 /* AddressBook.framework */,
+				EBBA58961F04D35F00B1F7A1 /* AddressBookUI.framework */,
+				069E9132F9ED9597C0012CDB /* libPods-DMContactStoreDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBBA586B1F04ADDC00B1F7A1 = {
 			isa = PBXGroup;
 			children = (
 				EBBA58761F04ADDC00B1F7A1 /* DMContactStoreDemo */,
 				EBBA58751F04ADDC00B1F7A1 /* Products */,
+				C1D016E4205DBA572B1BB539 /* Pods */,
+				C39CBEDD61DEA6D8B88B1B5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +104,7 @@
 		EBBA58761F04ADDC00B1F7A1 /* DMContactStoreDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EBBA588E1F04CEE100B1F7A1 /* DMContactStore */,
 				EBBA587A1F04ADDC00B1F7A1 /* AppDelegate.h */,
 				EBBA587B1F04ADDC00B1F7A1 /* AppDelegate.m */,
 				EBBA587D1F04ADDC00B1F7A1 /* ViewController.h */,
@@ -79,6 +126,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EBBA588E1F04CEE100B1F7A1 /* DMContactStore */ = {
+			isa = PBXGroup;
+			children = (
+				EBBA588F1F04CF1200B1F7A1 /* DMContactStoreModel.h */,
+				EBBA58901F04CF1200B1F7A1 /* DMContactStoreModel.m */,
+				EBBA58921F04CF5F00B1F7A1 /* DMContactStore.h */,
+				EBBA58931F04CF5F00B1F7A1 /* DMContactStore.m */,
+			);
+			name = DMContactStore;
+			path = ../../DMContactStore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBBA588B1F04ADDC00B1F7A1 /* Build configuration list for PBXNativeTarget "DMContactStoreDemo" */;
 			buildPhases = (
+				E2AE774BD36081F38E333CBC /* [CP] Check Pods Manifest.lock */,
 				EBBA58701F04ADDC00B1F7A1 /* Sources */,
 				EBBA58711F04ADDC00B1F7A1 /* Frameworks */,
 				EBBA58721F04ADDC00B1F7A1 /* Resources */,
+				80368A6D95C5A7AE480EDD33 /* [CP] Embed Pods Frameworks */,
+				F13158DC4B0D567AD8A05C69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +208,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80368A6D95C5A7AE480EDD33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMContactStoreDemo/Pods-DMContactStoreDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AE774BD36081F38E333CBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F13158DC4B0D567AD8A05C69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMContactStoreDemo/Pods-DMContactStoreDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBBA58701F04ADDC00B1F7A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBBA58941F04CF5F00B1F7A1 /* DMContactStore.m in Sources */,
 				EBBA587F1F04ADDC00B1F7A1 /* ViewController.m in Sources */,
 				EBBA587C1F04ADDC00B1F7A1 /* AppDelegate.m in Sources */,
 				EBBA58791F04ADDC00B1F7A1 /* main.m in Sources */,
+				EBBA58911F04CF1200B1F7A1 /* DMContactStoreModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +383,7 @@
 		};
 		EBBA588C1F04ADDC00B1F7A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DBE1B39DC5D1364BB8F377 /* Pods-DMContactStoreDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3AHZ82SGX3;
@@ -283,6 +396,7 @@
 		};
 		EBBA588D1F04ADDC00B1F7A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53459F5DE4EED8632B7AA248 /* Pods-DMContactStoreDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3AHZ82SGX3;
@@ -312,6 +426,7 @@
 				EBBA588D1F04ADDC00B1F7A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

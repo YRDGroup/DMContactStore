@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DMContactStore.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //获取所有人的联系方式
+    DMContactStore *store = [[DMContactStore alloc]init];
+    [store callContactStoreGetAllHandler:^(NSArray *contactStoreModels) {
+        for (DMContactStoreModel *model in contactStoreModels) {
+            NSLog(@"%@",model);
+        }
+    }];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
