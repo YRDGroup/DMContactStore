@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "UIImage+dm_image.h"
+#import "UIColor+dm_color.h"
+#define kScreenWidth  [[UIScreen mainScreen] bounds].size.width
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
 
 @interface AppDelegate ()
 
@@ -17,6 +21,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationBar *navBar = [UINavigationBar appearance];
+    // 1.2.设置导航栏背景
+    UIColor *firstColor = [UIColor dm_colorWithHex:0x369aff];
+    UIColor *lastColor = [UIColor dm_colorWithHex:0x39d7fc];
+    [navBar setBackgroundImage:[UIImage dm_getImageFromColors:@[firstColor,lastColor] withFrame:CGRectMake(0, 0,kScreenWidth,64)] forBarMetrics:UIBarMetricsDefault];
+    // 1.3.设置导航栏的文字
+    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    
     return YES;
 }
 

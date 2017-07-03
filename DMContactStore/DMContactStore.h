@@ -18,6 +18,9 @@ typedef void(^DMContactStoreGetSingleBlock)(DMContactStoreModel *contactStoreMod
 //未点击电话或者点击取消
 typedef void(^DMContactStoreCancelBlock)(void);
 
+//未点击电话或者点击取消
+typedef void(^DMContactStoreFitForYourAppBlock)(void);
+
 @interface DMContactStore : NSObject
 
 /**
@@ -25,22 +28,18 @@ typedef void(^DMContactStoreCancelBlock)(void);
 
  @param getAllHandler 获取所有联系人信息回调
  */
-- (void)callContactStoreGetAllHandler:(DMContactStoreGetAllBlock)getAllHandler;
+- (void)callContactStoreGetAllHandler:(DMContactStoreGetAllBlock)getAllHandler  unAuthorizedBlock:(void(^)(void))unAuthorizedBlock;
+
 
 /**
  调用系统通讯录页面 选择并获取联系人信息.
 
- @param getSingleHandler 获取单个联系人的信息回调
+ @param getSingleHandler 获取联系人的model
+ @param unAuthorizedBlock 未授权时的处理，如果不实现block，则默认实现系统alertView弹框和跳转
+ @param setFitForContactsUtilBlock 进入系统联系人页面的适配处理.如果不实现，则默认使用系统的设置
+ @param fitForYourAppBlock 返回到app页面时候的重置navbar颜色等，必须实现
+ @param cancelHandler 页面返回时的回调.用户取消，或者选中都会触发此block
  */
-- (void)callContactsHandler:(DMContactStoreGetSingleBlock)getSingleHandler;
-
-/**
- 用户选择取消之后的数据处理
-
- @param cancelHandler 取消回调
- */
-- (void)cancelContactsHandler:(DMContactStoreCancelBlock)cancelHandler;
-
-
+- (void)callContactsHandler:(DMContactStoreGetSingleBlock)getSingleHandler  unAuthorizedBlock:(void(^)(void))unAuthorizedBlock fitForContactsUtilBlock:(void(^)(void))setFitForContactsUtilBlock fitForYourAppBlock:(DMContactStoreFitForYourAppBlock)fitForYourAppBlock cancelContactsHandler:(DMContactStoreCancelBlock)cancelHandler;
 
 @end

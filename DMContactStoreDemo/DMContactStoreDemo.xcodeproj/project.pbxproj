@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3371DDE1C968383235804CFD /* libPods-DMContactStoreDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 069E9132F9ED9597C0012CDB /* libPods-DMContactStoreDemo.a */; };
+		EB07453A1F09EEE20021F883 /* DMABPeoplePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0745391F09EEE20021F883 /* DMABPeoplePickerNavigationController.m */; };
+		EB07453D1F09EEFB0021F883 /* DMCNContactPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB07453C1F09EEFB0021F883 /* DMCNContactPickerViewController.m */; };
+		EB07454B1F0A23660021F883 /* UIImage+dm_image.m in Sources */ = {isa = PBXBuildFile; fileRef = EB07454A1F0A23660021F883 /* UIImage+dm_image.m */; };
+		EB07454E1F0A242A0021F883 /* UIColor+dm_color.m in Sources */ = {isa = PBXBuildFile; fileRef = EB07454D1F0A242A0021F883 /* UIColor+dm_color.m */; };
 		EBBA58791F04ADDC00B1F7A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA58781F04ADDC00B1F7A1 /* main.m */; };
 		EBBA587C1F04ADDC00B1F7A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA587B1F04ADDC00B1F7A1 /* AppDelegate.m */; };
 		EBBA587F1F04ADDC00B1F7A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA587E1F04ADDC00B1F7A1 /* ViewController.m */; };
@@ -16,16 +20,22 @@
 		EBBA58871F04ADDC00B1F7A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA58851F04ADDC00B1F7A1 /* LaunchScreen.storyboard */; };
 		EBBA58911F04CF1200B1F7A1 /* DMContactStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA58901F04CF1200B1F7A1 /* DMContactStoreModel.m */; };
 		EBBA58941F04CF5F00B1F7A1 /* DMContactStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBA58931F04CF5F00B1F7A1 /* DMContactStore.m */; };
-		EBBA58971F04D35F00B1F7A1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA58951F04D35F00B1F7A1 /* AddressBook.framework */; };
-		EBBA58981F04D35F00B1F7A1 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA58961F04D35F00B1F7A1 /* AddressBookUI.framework */; };
-		EBBA589B1F04D36800B1F7A1 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA58991F04D36800B1F7A1 /* Contacts.framework */; };
-		EBBA589C1F04D36800B1F7A1 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBA589A1F04D36800B1F7A1 /* ContactsUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		069E9132F9ED9597C0012CDB /* libPods-DMContactStoreDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMContactStoreDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53459F5DE4EED8632B7AA248 /* Pods-DMContactStoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMContactStoreDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMContactStoreDemo/Pods-DMContactStoreDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D8DBE1B39DC5D1364BB8F377 /* Pods-DMContactStoreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMContactStoreDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMContactStoreDemo/Pods-DMContactStoreDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0745381F09EEE20021F883 /* DMABPeoplePickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMABPeoplePickerNavigationController.h; sourceTree = "<group>"; };
+		EB0745391F09EEE20021F883 /* DMABPeoplePickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMABPeoplePickerNavigationController.m; sourceTree = "<group>"; };
+		EB07453B1F09EEFB0021F883 /* DMCNContactPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCNContactPickerViewController.h; sourceTree = "<group>"; };
+		EB07453C1F09EEFB0021F883 /* DMCNContactPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCNContactPickerViewController.m; sourceTree = "<group>"; };
+		EB07453E1F0A1BB20021F883 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		EB07453F1F0A1BB20021F883 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EB0745491F0A23660021F883 /* UIImage+dm_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+dm_image.h"; sourceTree = "<group>"; };
+		EB07454A1F0A23660021F883 /* UIImage+dm_image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+dm_image.m"; sourceTree = "<group>"; };
+		EB07454C1F0A242A0021F883 /* UIColor+dm_color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+dm_color.h"; sourceTree = "<group>"; };
+		EB07454D1F0A242A0021F883 /* UIColor+dm_color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+dm_color.m"; sourceTree = "<group>"; };
 		EBBA58741F04ADDC00B1F7A1 /* DMContactStoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMContactStoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBA58781F04ADDC00B1F7A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBBA587A1F04ADDC00B1F7A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,10 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBBA589B1F04D36800B1F7A1 /* Contacts.framework in Frameworks */,
-				EBBA589C1F04D36800B1F7A1 /* ContactsUI.framework in Frameworks */,
-				EBBA58971F04D35F00B1F7A1 /* AddressBook.framework in Frameworks */,
-				EBBA58981F04D35F00B1F7A1 /* AddressBookUI.framework in Frameworks */,
 				3371DDE1C968383235804CFD /* libPods-DMContactStoreDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +80,8 @@
 		C39CBEDD61DEA6D8B88B1B5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB07453E1F0A1BB20021F883 /* Messages.framework */,
+				EB07453F1F0A1BB20021F883 /* MessageUI.framework */,
 				EBBA58991F04D36800B1F7A1 /* Contacts.framework */,
 				EBBA589A1F04D36800B1F7A1 /* ContactsUI.framework */,
 				EBBA58951F04D35F00B1F7A1 /* AddressBook.framework */,
@@ -133,6 +141,14 @@
 				EBBA58901F04CF1200B1F7A1 /* DMContactStoreModel.m */,
 				EBBA58921F04CF5F00B1F7A1 /* DMContactStore.h */,
 				EBBA58931F04CF5F00B1F7A1 /* DMContactStore.m */,
+				EB0745381F09EEE20021F883 /* DMABPeoplePickerNavigationController.h */,
+				EB0745391F09EEE20021F883 /* DMABPeoplePickerNavigationController.m */,
+				EB07453B1F09EEFB0021F883 /* DMCNContactPickerViewController.h */,
+				EB07453C1F09EEFB0021F883 /* DMCNContactPickerViewController.m */,
+				EB0745491F0A23660021F883 /* UIImage+dm_image.h */,
+				EB07454A1F0A23660021F883 /* UIImage+dm_image.m */,
+				EB07454C1F0A242A0021F883 /* UIColor+dm_color.h */,
+				EB07454D1F0A242A0021F883 /* UIColor+dm_color.m */,
 			);
 			name = DMContactStore;
 			path = ../../DMContactStore;
@@ -261,10 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB07453D1F09EEFB0021F883 /* DMCNContactPickerViewController.m in Sources */,
+				EB07453A1F09EEE20021F883 /* DMABPeoplePickerNavigationController.m in Sources */,
 				EBBA58941F04CF5F00B1F7A1 /* DMContactStore.m in Sources */,
 				EBBA587F1F04ADDC00B1F7A1 /* ViewController.m in Sources */,
+				EB07454B1F0A23660021F883 /* UIImage+dm_image.m in Sources */,
 				EBBA587C1F04ADDC00B1F7A1 /* AppDelegate.m in Sources */,
 				EBBA58791F04ADDC00B1F7A1 /* main.m in Sources */,
+				EB07454E1F0A242A0021F883 /* UIColor+dm_color.m in Sources */,
 				EBBA58911F04CF1200B1F7A1 /* DMContactStoreModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +408,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3AHZ82SGX3;
 				INFOPLIST_FILE = DMContactStoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yrdgroup.DMContactStoreDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,6 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3AHZ82SGX3;
 				INFOPLIST_FILE = DMContactStoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yrdgroup.DMContactStoreDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
