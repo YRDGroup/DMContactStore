@@ -1,0 +1,12 @@
+PODS:
+  - GJAlertController (1.0.0)
+
+DEPENDENCIES:
+  - GJAlertController
+
+SPEC CHECKSUMS:
+  GJAlertController: 71a7f2072451bc37b780d78379c9ee4b6f357dd2
+
+PODFILE CHECKSUM: 223f76e5cdaca7ff57d9a86078e1c6ca18cc266c
+
+COCOAPODS: 1.2.0
